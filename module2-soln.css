@@ -1,0 +1,92 @@
+#h1
+{
+   text-align:center;
+}
+
+.first,.second,.third
+{
+	background-color:#ddd;
+    padding-left:5px;
+    padding-bottom:5px;
+    border:3px solid black;
+    text-align:center;
+}
+    
+.firsth,.secondh,.thirdh
+{
+    float:right;
+    padding-top:2px;
+    padding-bottom:2px;
+    border-width: 0px 0px 2px 2px;
+    border-color:#000;
+    border-style: solid;
+    margin:0;
+    width:100px;
+    text-align:center;
+}
+    
+.firsth
+{
+	background-color:pink;
+}
+
+.secondh
+{
+	background-color:red;
+	color:white;
+}
+
+.thirdh
+{
+	background-color:yellow;
+}
+
+@media (min-width: 992px) {
+.first,.second
+{
+	width:30%;
+	float:left;
+	margin:10px;
+}
+.third
+{
+	width:30%;
+    float:right;
+    margin:10px;
+}
+  
+  
+}
+@media (min-width: 768px) and (max-width: 991px) {
+.half,.third
+{
+	margin:3%;
+}
+.first
+{
+	width:47%;
+    float:left;
+}
+.second
+{
+	width:47%;
+    float:right;
+}
+.third
+{
+	width:93%;
+    float:right;
+}
+  
+}
+
+@media (max-width: 767px) {
+  
+ .first,.second,.third
+ {
+ width:94%;
+ margin:3%;
+ }
+  
+  
+}
